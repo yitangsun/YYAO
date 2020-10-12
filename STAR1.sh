@@ -339,7 +339,7 @@ STAR --runThreadN 6 --genomeDir /scratch/ys98038/YYAO/Reference \
 --readFilesIn /scratch/ys98038/YYAO/2989-158183035/*/v1_ctr-2_microglia_L00$i*/*_R1_001.fastq \
 /scratch/ys98038/YYAO/2989-158183035/*/v1_ctr-2_microglia_L00$i*/*_R2_001.fastq  \
 --outSAMtype BAM SortedByCoordinate --alignIntronMin 20 --alignIntronMax 500000 --outFilterMismatchNmax 10  \
---outFileNamePrefix /scratch/ys98038/YYAO/STAR_results/2989-158183035_2020-03-13_16_52_00Z-222443222/v1_ctr-1_microglia_L00$i
+--outFileNamePrefix /scratch/ys98038/YYAO/STAR_results/2989-158183035_2020-03-13_16_52_00Z-222443222/v1_ctr-2_microglia_L00$i
 done
 
 
