@@ -101,6 +101,17 @@ samtools merge /scratch/ys98038/YYAO/STAR_results/2989-158183035_2020-03-13_16_5
 
 
 
+ cp WT-4_S4_Aligned.sortedByCoord.out.bam ctr-4_microglia_Aligned.sortedByCoord.out.bam  
+
+realpath A5_CKO_D3*_Aligned.sortedByCoord.out.bam WT_D3*_Aligned.sortedByCoord.out.bam  > /scratch/ys98038/YYAO/Bam_file/A5_CKO_D3_WT_D3.list
+
+realpath ctr-*_microglia_Aligned.sortedByCoord.out.bam a5_CKO-*_microglia_Aligned.sortedByCoord.out.bam  > /scratch/ys98038/YYAO/Bam_file/ctr_a5_CKO.list
+
+realpath ctr-*_microglia_Aligned.sortedByCoord.out.bam ../3465-198245048_2020-09-21_13_03/WT_D3*_Aligned.sortedByCoord.out.bam  > /scratch/ys98038/YYAO/Bam_file/ctr_WT_D3.list
+
+realpath a5_CKO-*_microglia_Aligned.sortedByCoord.out.bam ../3465-198245048_2020-09-21_13_03/A5_CKO_D3*_Aligned.sortedByCoord.out.bam  > /scratch/ys98038/YYAO/Bam_file/a5_CKO_A5_CKO_D3.list
+
+realpath v1_ctr-*_microglia_Aligned.sortedByCoord.out.bam v1_CKO-*_microglia_Aligned.sortedByCoord.out.bam  > /scratch/ys98038/YYAO/Bam_file/v1_ctr_ctr_v1_CKO.list
 
 
-realpath A5_CKO_D3_1_Aligned.sortedByCoord.out.bam WT_D3_1_Aligned.sortedByCoord.out.bam > /scratch/ys98038/YYAO/Bam_file/A5_CKO_D3_1_WT_D3_1.list
+
